@@ -60,3 +60,6 @@ Make sure to set your Groq API key in llm_groq.py.
 
 
 
+##  Demo
+
+👉 [Click to watch the demo](https://github.com/user-attachments/assets/e061625a-4bf4-4dfa-b130-0eafacf64082)
