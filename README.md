@@ -46,6 +46,20 @@ The user enters a question. The app retrieves the top-k relevant chunks and send
 5) Answer Generation
 Groq's LLaMA3 model generates an accurate, concise answer.
 
+## 📂 Project Structure
+
+```text
+📂 Project Root
+├── loader.py         
+├── chunker.py        
+├── embedder.py       
+├── vectordb.py       
+├── llm_groq.py       
+├── qa_chain.py       
+└── app_groq.py       
+```
+
+
 
 ## Installation & Run Locally
 
