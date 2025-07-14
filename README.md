@@ -49,7 +49,7 @@ Groq's LLaMA3 model generates an accurate, concise answer.
 ## 📂 Project Structure
 
 ```text
-📂 Project Root
+📂 app
 ├── loader.py         
 ├── chunker.py        
 ├── embedder.py       
