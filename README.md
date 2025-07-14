@@ -58,11 +58,5 @@ streamlit run app_groq.py
 Make sure to set your Groq API key in llm_groq.py.
 
 
-##  Limitations
-Only one PDF supported per session
-
-No support yet for multi-document QA
-
-Groq API key required for LLM usage
 
 
