@@ -15,17 +15,18 @@ An intelligent chatbot that allows users to upload any PDF document (e.g., medic
 6) Chat UI with conversation history using Streamlit
 
 
-Tech Stack
+## Tech Stack
 
-Component	         Tool / Library
-UI	             Streamlit
-PDF Parsing      PyMuPDF
-Chunking	     LangChain RecursiveCharacterTextSplitter + NLTK
-Embeddings	     sentence-transformers/all-MiniLM-L6-v2
-Vector DB	     FAISS
-Retriever	     LangChain Similarity Search Retriever
-LLM	             Groq API (LLaMA3-8B-8192)
-Prompting	     LangChain PromptTemplate
+| Component   | Tool / Library                                   |
+|-------------|--------------------------------------------------|
+| UI          | Streamlit                                        |
+| PDF Parsing | PyMuPDF                                          |
+| Chunking    | LangChain `RecursiveCharacterTextSplitter` + NLTK |
+| Embeddings  | `sentence-transformers/all-MiniLM-L6-v2`         |
+| Vector DB   | FAISS                                            |
+| Retriever   | LangChain Similarity Search Retriever            |
+| LLM         | Groq API (`LLaMA3-8B-8192`)                      |
+| Prompting   | LangChain PromptTemplate                         |
 
 
 How It Works
