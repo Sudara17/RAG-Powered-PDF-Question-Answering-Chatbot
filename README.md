@@ -1,3 +1,4 @@
+## RAG-BASED PDF CHATBOT
 An intelligent chatbot that allows users to upload any PDF document (e.g., medical forms, academic reports, project papers) and ask natural language questions about its content. Built using Retrieval-Augmented Generation (RAG) with Groq LLM, LangChain, and FAISS.
 
  ## Features
