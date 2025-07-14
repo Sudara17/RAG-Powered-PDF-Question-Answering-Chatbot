@@ -28,16 +28,14 @@ LLM	             Groq API (LLaMA3-8B-8192)
 Prompting	     LangChain PromptTemplate
 
 
-Project Architecture
-
-📂 app/
-├── loader.py         # PDF loader using PyMuPDF
-├── chunker.py        # Adaptive text chunking (sentence/recursive/fixed)
-├── embedder.py       # HuggingFace embeddings loader
-├── vectordb.py       # FAISS vector store builder and retriever
-├── llm_groq.py       # Loads Groq-hosted LLaMA3 model
-├── qa_chain.py       # LangChain QA chain with custom prompt
-└── app_groq.py       # Streamlit interface
+📂 Project Structure
+├── loader.py
+├── chunker.py
+├── embedder.py
+├── vectordb.py
+├── llm_groq.py
+├── qa_chain.py
+└── app_groq.py
 
 
 How It Works
@@ -60,10 +58,12 @@ Groq's LLaMA3 model generates an accurate, concise answer.
 
 Installation & Run Locally
 
+```bash
 git clone https://github.com/your-username/rag-pdf-chatbot.git
 cd rag-pdf-chatbot
 pip install -r requirements.txt
 streamlit run app_groq.py
+
 Make sure to set your Groq API key in llm_groq.py.
 
 
