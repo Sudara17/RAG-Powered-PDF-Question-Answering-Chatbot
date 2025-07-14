@@ -1,6 +1,6 @@
 An intelligent chatbot that allows users to upload any PDF document (e.g., medical forms, academic reports, project papers) and ask natural language questions about its content. Built using Retrieval-Augmented Generation (RAG) with Groq LLM, LangChain, and FAISS.
 
- Features
+ ## Features
 
 1) Upload any PDF file and extract clean text
 
@@ -29,7 +29,7 @@ An intelligent chatbot that allows users to upload any PDF document (e.g., medic
 | Prompting   | LangChain PromptTemplate                         |
 
 
-How It Works
+## How It Works
 
 1) PDF Upload
 Users upload a document via Streamlit.
@@ -47,7 +47,7 @@ The user enters a question. The app retrieves the top-k relevant chunks and send
 Groq's LLaMA3 model generates an accurate, concise answer.
 
 
-Installation & Run Locally
+## Installation & Run Locally
 
 ```bash
 git clone https://github.com/your-username/rag-pdf-chatbot.git
@@ -58,7 +58,7 @@ streamlit run app_groq.py
 Make sure to set your Groq API key in llm_groq.py.
 
 
-🚧 Limitations
+##  Limitations
 Only one PDF supported per session
 
 No support yet for multi-document QA
@@ -66,11 +66,3 @@ No support yet for multi-document QA
 Groq API key required for LLM usage
 
 
-📌 Future Improvements
-Support for multiple PDFs
-
-OCR fallback for scanned PDFs
-
-Document metadata viewer
-
-Export Q&A sessions
