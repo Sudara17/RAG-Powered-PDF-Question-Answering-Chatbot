@@ -28,16 +28,6 @@ LLM	             Groq API (LLaMA3-8B-8192)
 Prompting	     LangChain PromptTemplate
 
 
-📂 Project Structure
-├── loader.py
-├── chunker.py
-├── embedder.py
-├── vectordb.py
-├── llm_groq.py
-├── qa_chain.py
-└── app_groq.py
-
-
 How It Works
 
 1) PDF Upload
